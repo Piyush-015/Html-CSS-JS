@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+  <style>
+    body {
+      background-color: #FFE4C4; /* Light beige */
+      font-family: Arial, sans-serif;
+    }
+
+    form {
+      width: 400px;
+      margin: 40px auto;
+      padding: 50px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <div class="form-group">
+      <label>First Name:</label>
+      <input type="text" placeholder="Type Your First Name">
+    </div>
+
+    <div class="form-group">
+      <label>Last Name:</label>
+      <input type="text" placeholder="Type Your Last Name">
+    </div>
+
+    <div class="form-group">
+      <label>Email:</label>
+      <input type="email" placeholder="Enter Your Email">
+    </div>
+
+    <div class="form-group">
+      <label>Address:</label>
+      <input type="text" placeholder="Type Your Address">
+    </div>
+
+    <div class="form-group">
+      <label>Date of Birth:</label>
+      <input type="date">
+    </div>
+
+    <div class="form-group">
+      <label>Set Username:</label>
+      <input type="text" placeholder="Type Your User Name">
+    </div>
+
+    <div class="form-group">
+      <label>Set Password:</label>
+      <input type="password" placeholder="Create a Password">
+    </div>
+
+    <div class="form-group">
+      <label>Gender:</label><br>
+      <input type="radio" name="gender" value="Male"> Male
+      <input type="radio" name="gender" value="Female"> Female
+      <input type="radio" name="gender" value="Others"> Others
+    </div>
+
+    <div class="form-group">
+      <label>Course:</label>
+      <select>
+        <option>O Level</option>
+        <option>A Level</option>
+        <option>B Level</option>
+        <option>C Level</option>
+      </select>
+    </div>
+
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>

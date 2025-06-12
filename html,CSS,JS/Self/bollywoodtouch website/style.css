@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #000000, #800000);
+    color: gold;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: crimson;
+}
+
+.hero {
+    padding: 50px;
+    background: url('https://wallpaperaccess.com/full/1497321.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+footer {
+    background-color: #111;
+    padding: 10px;
+    font-size: 0.9em;
+}

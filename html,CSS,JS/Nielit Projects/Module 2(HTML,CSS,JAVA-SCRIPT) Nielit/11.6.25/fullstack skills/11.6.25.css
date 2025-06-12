@@ -1,0 +1,43 @@
+body{
+    background-color: aliceblue;
+    margin: 20px;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+
+}
+
+.column{
+    background-color:aqua;
+    padding: 20px;
+     width: 45%;
+
+}
+.column h2{
+    background-color: rgb(172, 177, 177);
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    margin: 0 0 15px;
+
+}
+
+.card{
+    background-color:orange;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-bottom: 10px solid chartreuse;
+    
+}
+
+.card h3{
+    margin: 0 0 10px;
+    color:rgb(0, 0, 0);
+}
+
+.card p {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}

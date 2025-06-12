@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Mood Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>How Are You Feeling Today?</h1>
+  <div id="mood-options">
+    <!-- Emoji buttons here -->
+  </div>
+  <div id="quote-box">
+    <!-- Random motivational quote -->
+  </div>
+  <div id="history">
+    <h2>Mood History</h2>
+    <!-- Past moods display -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
